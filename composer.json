@@ -1,0 +1,28 @@
+{
+    "name": "jconklin/php-interfaces",
+    "description": "Base Interfaces for PHP",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Jexa\\PhpInterfaces\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Jexa\\PhpInterfaces\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "jexa",
+            "email": "johndconklin@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
